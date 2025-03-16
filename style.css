@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color:#ff0d6a;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+    background-color: rgb(2, 0, 105); 
+}
+.nav .logo{
+    color: var(--main-color);
+}
+.nav .logo h2{
+    font-size: 2.6rem;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links a{
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        line-height: 25px;
+}
